@@ -8,22 +8,22 @@
         </div>
         <div class="col-9 pt-5">
             <div>
-                <h1>fakestigram</h1>
+            <h1>{{ 'username' }}</h1>
             </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>153</strong> posts</div>
                 <div class="pr-5"><strong>23K</strong> followers</div>
                 <div class="pr-5"><strong>212</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold">fakestigram.com</div>
-            <div>We're a global community of mullions of people learning to code together. We're an open source, donor-suppored, 501(c)(3) nonprofit.</div>
-            <div><a href="#">www.fakstigram.com</a></div>
+            <div class="pt-4 font-weight-bold"> ( $user->profile->title ) </div>
+            <div>( $user->profile->description )</div>
+            <div><a href="#">( $user->profile->url ?? 'N/A' )</a></div>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row pt-5">
         <div class="col-4">
-            <img src="https://pbs.twimg.com/profile_images/1785557537/311368_10150363477252001_601572000_8817201_1251174387_n_400x400.jpg">
+            <img src="https://pbs.twimg.com/profile_images/1785557537/311368_10150363477252001_601572000_8817201_1251174387_n_400x400.jpg" class="w-100">
         </div>
         <div class="col-4">
             <img src="https://scontent-lhr3-1.cdninstagram.com/vp/ef992e4cdc2191e2c7e20ebbd70fbba5/5D9941AD/t51.2885-19/s150x150/31211004_168181440466262_54181085453484032_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com" class="w-100">
